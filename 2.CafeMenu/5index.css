@@ -1,0 +1,47 @@
+html {
+    background-color: violet;
+    padding: 1px;
+    margin: 2px;
+}
+
+body {
+    background-color: indigo;
+    padding: 2%;
+    margin: 3%;
+}
+
+div.menu {
+    background-color: blue;
+    padding: 4%;
+    margin: 5%;
+}
+
+main {
+    background-color: green;
+    padding: 5%;
+    margin: 6%;
+}
+
+section.one {
+    background-color: yellow;
+    padding: 6%;
+    margin: 7%;
+    /* border: 5px solid black; */
+}
+
+section.two {
+    background-color: orange;
+    padding: 7%;
+    margin: 8%;
+    /* border: 3px solid white; */
+}
+
+section {
+    background-color: red;
+    padding: 8%;
+    margin: 9%;
+}
+
+section.one,section.two{
+    border: 10px solid red;
+}
