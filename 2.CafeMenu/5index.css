@@ -8,6 +8,7 @@ body {
     background-color: indigo;
     padding: 2%;
     margin: 3%;
+    /* background-image: url(../images/beans\ 1950X1300\ coffee\ icon.jpg); */
 }
 
 div.menu {
@@ -20,19 +21,20 @@ main {
     background-color: green;
     padding: 5%;
     margin: 6%;
+    background-image: url(../images/beans\ 1950X1300\ coffee\ icon.jpg);
 }
 
 section.one {
     background-color: yellow;
-    padding: 6%;
-    margin: 7%;
+    /* padding: 6%;
+    margin: 7%; */
     /* border: 5px solid black; */
 }
 
 section.two {
     background-color: orange;
-    padding: 7%;
-    margin: 8%;
+    /* padding: 6%;
+    margin: 7%; */
     /* border: 3px solid white; */
 }
 
@@ -44,4 +46,40 @@ section {
 
 section.one,section.two{
     border: 10px solid red;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+
+}
+p.est{
+    font-style: italic;
+    color: blue;
+}
+h2{
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p.flavor,p.des{
+    font-size: 10px;
+    font-family: monospace;
+    
+}
+/* p.flavor,p.des,p.price{
+    display: inline;
+} */
+/* p.price{
+    display: inline;
+} */
+.item p{
+    display: inline;
+}
+main{
+    text-align: center;
+    
+}
+img{
+    display: inline-block;
+    text-align: center;
 }
