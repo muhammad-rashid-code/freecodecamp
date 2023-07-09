@@ -1,0 +1,39 @@
+/* body {
+    /* background-image: url(../images/beans\ 1950X1300\ coffee\ icon.jpg); */
+/* }
+
+h1,
+h2,
+p,
+a {
+    text-align: center;
+}
+
+p.price,
+p.price,
+p.flavor,
+p.dessert { */
+    /* display: inline-block; */
+    /* margin-left: auto;
+    margin-right: auto;
+}
+article,p{
+    display: inline;
+} */
+
+/* .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  } */
+  /* .item p{
+display: inline-block;
+  } */
+  /* .item,p{
+    display: inline;
+  } */
+  .item>p{
+    display: inline;
+  }
+  
