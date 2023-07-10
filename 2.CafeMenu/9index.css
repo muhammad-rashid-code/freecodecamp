@@ -1,0 +1,65 @@
+html {
+    /* background-color: violet; */
+    padding: 20px;
+}
+
+body {
+    /* background-color: indigo; */
+    padding: 9%;
+    background-image: url(../images/beans\ 1950X1300\ coffee\ icon.jpg);
+}
+
+div {
+    /* background-color: blue; */
+    background-color: burlywood;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+section {
+    /* background-color: green; */
+    padding: 3%;
+}
+
+.item p {
+    display: inline-block;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: paleturquoise;
+}
+
+.dessert,
+.flavor {
+    text-align: left;
+    width: 50%;
+}
+
+.price {
+    text-align: right;
+    width: 49%;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+p {
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
