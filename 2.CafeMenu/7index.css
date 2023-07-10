@@ -1,0 +1,39 @@
+html{
+    background-color: violet;
+    padding: 1px;
+}
+body{
+    background-color: indigo;
+    padding: 3%;
+}
+div{
+    background-color: blue;
+    padding: 5%;
+    background-image: url(../images/beans\ 1950X1300\ coffee\ icon.jpg);
+}
+main{
+    background-color: burlywood;
+    padding: 6%;
+}
+h1,p.est,h2,p.address,a{
+    text-align: center;
+}
+/* a{
+    justify-content: center;
+} */
+.menu p{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 20px;
+    max-width: 500px;
+}
+.flavor,.deseert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
