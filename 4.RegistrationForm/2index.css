@@ -68,4 +68,16 @@ textarea {
 .inline {
     width: unset;
     margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1em;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
 }
