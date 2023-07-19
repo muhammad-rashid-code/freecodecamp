@@ -16,7 +16,7 @@ label {
 }
 
 .l-c {
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 
 .u-c {

@@ -1,0 +1,58 @@
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+article p {
+    display: inline-block;
+    margin: 0 0;
+
+}
+
+body {
+    background-image: url(../images/beans\ 1950X1300\ coffee\ icon.jpg );
+}
+
+.container {
+    background-color: burlywood;
+    width: 50px 25px 50px 25px;
+    margin: 10px 25px 10px 25px;
+}
+
+.flavor,
+.desserts {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 24%;
+}
+
+h1,
+.est,
+h2,
+p {
+    text-align: center;
+}
+
+/* img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+} */
+
+img {
+    display: block;
+    margin: -25px auto 0 auto;
+}
+
+.est {
+    text-transform: capitalize;
+    font-style: italic;
+}
