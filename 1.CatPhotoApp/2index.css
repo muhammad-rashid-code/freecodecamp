@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+p {
+    text-transform: capitalize;
+}
+
+ul li,
+ol li {
+    text-transform: capitalize;
+}
+
+legend,
+label {
+    text-transform: capitalize;
+}
+
+.l-c {
+    text-transform: lowercase;
+}
+
+.u-c {
+    text-transform: uppercase;
+}

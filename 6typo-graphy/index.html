@@ -2,45 +2,79 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutrition Label</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nutrition Label</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
 </head>
 
 <body>
-    <div class="label">
-        <h1>Nutrition Facts</h1>
-        <div class="divider"></div>
-        <p>8 servings per container</p>
-        <!-- Step 21
+        <div class="label">
+                <header>
+                        <div class="divider large"></div>
+                        <div class="calories-info"><div class="left-container"><h2 class="bold small-text">Amount per serving</h2></div></div>
+                        <h1 class="bold">Nutrition Facts</h1>
+                        <div class="divider"></div>
+                        <p>8 servings per container</p>
+
+                       
+                        <!-- Step 31
+                        The rem unit stands for root em, and is relative to the font size of the html element.
+                        
+                        Create a .small-text selector and set the font-size to 0.85rem, which would calculate to roughly 13.6px (remember that you set your html to have a font-size of 16px) -->
+                        <!-- Step 30
+Within your .calories-info element, create a div element. Give that div element a class attribute set to left-container. Within the newly created div element, create a h2 element with the text Amount per serving. Give the h2 element a class attribute set to bold small-text -->
+
+                        <!-- Step 29
+Create a new div below your .large element and give it a class attribute set to calories-info -->
+
+                        <!-- Step 24
+Wrap everything within the .label element in a new header element. -->
+                        <!-- Step 21
 Give your h1 element a class attribute set to bold. This will make the text bold again -->
 
-        <!-- Step 3
-Add a second p element with the text Serving size 2/3 cup (55g) -->
-        <p class="bold">Serving size 2/3 cup (55g)</p>
+                        <!-- Step 22
+Horizontal spacing between equally important elements can increase the readability of your text.
 
-        <!-- Step 19
+Wrap the text 2/3 cup (55g) in a span element -->
+
+                        <!-- Step 3
+Add a second p element with the text Serving size 2/3 cup (55g) -->
+                        <p class="bold">Serving size <span>2/3 cup</span> (55g) </p>
+                        <!-- Step 23
+Now we can add the horizontal spacing using flex. In your p selector, add a display property set to flex and a justify-content property set to space-between -->
+
+                        <!-- Step 19
 Nutrition labels have a lot of bold text to draw attention to important information. Rather than targeting each element that needs to be bold, it is more efficient to use a class to apply the bold styling to every element.
 
 Give your second p element a class attribute set to bold -->
 
-        <!-- Step 4
+                        <!-- Step 4
 Within your head element, add a link element with the rel attribute set to stylesheet and the href attribute set to https://fonts.googleapis.com/css?family=Open+Sans:400,700,800.
 
 This will import the Open Sans font family, with the font weight values 400, 700, and 800.
 
 Also add a link element to link your styles.css file. -->
 
-        <!-- Step 5
+                        <!-- Step 5
 Create a body selector and give it a font-family set to Open Sans with a fallback of sans-serif.
 
 Remember that fonts with spaces in the name must be wrapped in quotes for CSS. -->
 
-<!-- Step 7
+                        <!-- Step 7
 Wrap your h1 and p elements in a div element. Give that div a class attribute set to label -->
-    </div>
+
+<!-- Step 25
+Now update your h1 selector to be header h1 to specifically target your h1 element within your new header -->
+
+<!-- Step 26
+Create a new div element below your header element, and give it a class attribute set to divider large -->
+
+<!-- Step 27
+Create a new .large selector and give it a height property set to 10px. Also create an .large, .medium selector and set the background-color property to black -->
+                </header>
+        </div>
 
 </body>
 
