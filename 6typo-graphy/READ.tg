@@ -1,0 +1,60 @@
+Step 33
+Below your .small-text element, create a new p element with the text Calories. Also below the .left-container element, create a new span element with the text 230
+
+Step 34
+Create a new .calories-info selector and give it a display property set to flex. Also give it a justify-content property set to space-between and align-items property set to flex-end
+
+Step 35
+Create a new .left-container p selector setting the top and bottom margin to -5px, and the left and right margin to -2px. Also set the font-size to 2em and font-weight to 700
+
+Step 36
+Create a .calories-info span selector, set its font-size to 2.4em and font-weight to 700
+
+Step 37
+Typography is often more art than science. You may have to tweak things like alignment until it looks correct.
+
+Give your .calories-info span selector a margin set to -7px -2px. This will shift your 230 text into place.
+
+Step 38
+Below your .calories-info element, add a div with the class attribute set to divider medium
+
+Step 39
+Create an .medium selector and give it a height property of 5px
+
+Step 40
+Create a new div element below your .medium element. Give it a class attribute set to daily-value small-text. Within this new div, add a p element with the text % Daily Value *, and set the class attribute to bold right
+
+Step 41
+The text * Daily Value % should be aligned to the right. Create a .right selector and use the justify-content property to do it.
+
+Step 42
+Use your existing .divider element as an example to add a new divider after the p element.
+
+Step 43
+After your last .divider element, create a p element and give it the text Total Fat 8g 10%. Wrap the text Total Fat in a span element with the class of bold. Wrap the text 10% in another span element with the class of bold. Finally, nest the Total Fat span element and the text 8g in an additional span element for alignment.
+
+Step 44
+Below your element with the Total Fat text, create a new p element with the text Saturated Fat 1g 5%. Wrap the 5% in a span with the class attribute set to bold. In this case this is enough to align the percentage to 5%.
+
+Step 45
+This new p element will need to be indented. Give it a class set to indent
+
+Step 46
+Create a new .indent selector and give it a margin-left property set to 1em
+
+Step 47
+Create a .daily-value p selector to target all of your p elements in the daily-value section. Give this new selector a border-bottom set to 1px solid #888989
+
+Step 48
+The bottom borders under your % Daily Value * and Saturated Fat 1g 5% elements do not extend the full width of the label. Add no-divider to the class for these two elements.
+
+Step 49
+The :not pseudo-selector can be used to select all elements that do not match the given CSS rule.
+
+div:not(#example) {
+  color: red;
+}
+The above selects all div elements without an id of example.
+
+Modify your .daily-value p selector to exclude the .no-divider elements.
+
