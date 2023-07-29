@@ -100,3 +100,32 @@ Step 61
 After your last divider, create another p element with the text Protein 3g. Use the necessary classes to remove the bottom border, and a span to make the Protein bold.
 
 Following this element, create a large divider.
+
+Step 62
+Create another p element below your large divider. Give the p element the text Vitamin D 2mcg 10%.
+
+The p element contains only text, you can wrap the percentage in a span element so that it is considered a separate entity from the rest of the text, and it's moved to the right.
+
+Step 63
+Create another p element, give it the text Calcium 260mg 20%. Align 20% to the right. Below that, create a p element with the text Iron 8mg 45%, aligning the 45% to the right.
+
+Step 64
+Create the final p element for your .daily-value section. Give it the text Potassium 235mg 6%. Align the 6% text to the right, and remove the bottom border of the p element.
+
+Step 65
+Add a medium divider after your .daily-value element. Below that new divider, create a p element with the class attribute set to note.
+
+Give the p element the following text:
+
+* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.
+
+Step 66
+Create a .note selector, and set the size of the font to 0.6rem. Also set the top and bottom margins to 5px, removing the left and right margins.
+
+Step 67
+Give the .note selector a left and right padding of 8px, removing the top and bottom padding. Also set the text-indent property to -8px.
+
+With these last changes, your nutrition label is complete!
+
+
+
